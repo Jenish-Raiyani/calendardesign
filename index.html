@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+      
         .container{
             margin-top: -25px;
             width:100%;
@@ -18,17 +19,18 @@
             display: flex;
             justify-content: space-between;
         }
-        .card  p{
+        .datecontent  p{
             font-style: bold;
             margin-top: -25px;
         }
         
 
-        .card {
+        .datecontent {
             background-color: white;
             color: black;
             padding: 1rem;
             height: 10rem;
+           
             border-right: 2px solid #eae5e3;
             border-bottom: 2px solid #eae5e3;
             line-height: 10px;
@@ -38,19 +40,19 @@
               font-size: 100px;
           }
           .date {
-            max-width: 1500px;
-            
+            max-width: 1300px;
+       
             display: grid;
             grid-gap: 0.5rem;
           
-            grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
           }  
           .weekdays {
             max-width: 1500px;
-            margin: 0 auto;
+             
             display: grid;
             grid-gap: 0.5rem;
-            grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
             margin-bottom: 10px;
            
           }  
@@ -59,7 +61,7 @@
             color: black;
             padding: 1rem;
             height: 1rem;
-            width: 150px;
+            width: 120px;
             font-size:1.5rem;
             font-style: bold;
             text-align: center;
@@ -86,10 +88,20 @@
           .circular_image img{
             width:100%;
           }
+          .sidecontent{
+                font-size:15px;
+                border-bottom:1px dotted black;
+                text-align: left; 
+          }
+          .bgfont{
+              font-size: 50px;
+          }
+          
           
 </style>
 </head>
 <body>
+    
     
         <div class="container"  >
             <div class="nav">
@@ -106,41 +118,83 @@
                     
                     <div class="days" style="background-color:#e41d2f;color:#ffffff;">SAT</div>
                     <div class="days" style="background-color:#e41d2f;color:#ffffff;">SUN</div>
+                   
+                        <div class="days" style="width: 7em;margin-left: -20px;">
+                            <p class="sidecontent" style="margin-top:-10px;border: none;text-align: center;color: #160d56;"><b>Posh - Maha</b> <br> Vikram Samvant 2077</p>
+                            <p class="sidecontent">1. પાશ વદ ચોથ</p>
+                            <p class="sidecontent">૨. વદ પાંચમ</p>
+                            <p class="sidecontent">3. વદ છઠ</p>
+                            <p class="sidecontent">4. વદ સાતમ</p>
+                            <p class="sidecontent">5. વદ આઠમ</p>
+                            <p class="sidecontent">6. વદ પાંચમ</p>
+                            <p class="sidecontent">7. એકાદશી (સ્માર્ત)</p>
+                            <p class="sidecontent" style="color:#5eb9dc;">8. પતિલા એક દો ઉપવાસ</p>
+                            <p class="sidecontent">9. વદ તેરા</p>
+                            <p class="sidecontent">10. વદ ચૌદશ</p>
+                            <p class="sidecontent">11. વદ પાંચમ</p>
+                            <p class="sidecontent">12. મહા સુદ પડવો</p>
+
+
+                            <p class="sidecontent">13. સુદ બીજ</p>
+                            <p class="sidecontent">14. સુદ ત્રીજ</p>
+                            <p class="sidecontent">15. સુદ ચોથ</p>
+                            <p class="sidecontent" style="color:#5eb9dc;">16. વસંત પંચમી,સ્ત્રીજી મહારાજ જયંતી</p>
+                            <p class="sidecontent">17. સસુદ છઠ વૃદ્ધિતિથિ</p>
+                            <p class="sidecontent">18. સુદ છઠ</p>
+                            <p class="sidecontent">19. સુદ સાતમ</p>
+                            <p class="sidecontent">20. સુદ આઠમ</p>
+                            <p class="sidecontent" style="color:#5eb9dc;">21. સુદ દશમ</p>
+                            <p class="sidecontent">22. સુદ દશમ</p>
+                            <p class="sidecontent" style="color:#5eb9dc;">23. સુદ બાર</p>
+                            <p class="sidecontent">24. સુદ ચૌદશ</p>
+
+
+
+                        </div>
+                    
+                                            
+                   
+                    <!-- <div class="days" >Posh - Mahā</div> -->
                     <!-- <div class="days">Poah - Maha</div> -->
                 </div>
+             
+                    
+                
             </div>
+            
             <div class="date">
-                <div class="card">
+              
+                <div class="datecontent">
                     <h1 >1</h1>
                     <p>Posh Vad 4</p>
                 </div>
-                <div class="card">
+                <div class="datecontent">
                     <h1 >2</h1>
                     <p>Vad 5</p>
                 </div>
-                <div class="card">
+                <div class="datecontent">
                     <h1 >3</h1>
                     <p>Vad 6</p>
                 </div>
-                <div class="card">
+                <div class="datecontent">
                     <h1 >4</h1>
                     <p>Vad 7</p>
                 </div>
-                <div class="card">
+                <div class="datecontent">
                     <h1>5</h1>
                     <p>Vad 8</p>
                 </div>
-                <div class="card">
+                <div class="datecontent">
                     <h1  style="color:#e41d2f;" >6</h1>
                     <p>Vad 9-10</p>
                 </div>
-                <div class="card">
+                <div class="datecontent">
                     <h1 style="color:#e41d2f;" >7</h1>
                     <p>Ekadashi(Smart)</p>
                 </div>
-                <div class="card">
-                   <div style="background-color: #f1e9bc;height: 100px;margin-top: -80px;">
-                    <h1 style="padding: 40px;">8</h1>
+                <div class="datecontent">
+                   <div style="background-color: #f1e9bc;height: 100px;margin-top:-40px;">
+                    <h1 style="padding: 40px;" class="bgfont">8</h1>
                    
                    </div>
                     <p style="color:#5eb9dc;margin-top:20px;">Shattila Ekadashi
@@ -148,104 +202,105 @@
                         <br>
                          (Fast)</p>
                 </div>
-                <div class="card">
+                <div class="datecontent">
                     <h1>9</h1>
                     <p>Vad 13</p>
                 </div>
-                <div class="card">
+                <div class="datecontent">
                     <h1>10</h1>
                     <p>Vad 14</p>
                 </div>
-                <div class="card">
-                    <div style="background-color: #160d56;height: 100px;margin-top: -80px; color: #ffffff;">
-                        <h1 style="padding: 40px;">11</h1>    
+                <div class="datecontent">
+                    <div style="background-color: #160d56;height: 100px;margin-top:-40px; color: #ffffff;">
+                        <h1 style="padding: 30px;"  class="bgfont">11</h1>    
                     </div>
                    
                     <p style="color:#5eb9dc;margin-top:20px;">Darsh Amas</p>
                 </div>
-                <div class="card">
+                <div class="datecontent">
                     <h1>12</h1>
                     <p>Maha Sud 1</p>
                 </div>
-                <div class="card">
+                <div class="datecontent">
                     <h1  style="color:#e41d2f;" >13</h1>
                     <p>Sud 2</p>
                 </div>
-                <div class="card">
+                <div class="datecontent">
                     <h1  style="color:#e41d2f;" >14</h1>
                     <p>Sud 3</p>
                 </div>
-                <div class="card">
+                <div class="datecontent">
                     <h1>15</h1>
                     <p>Sud 4</p>
                 </div>
-                <div class="card">
+                <div class="datecontent">
                     <div >
-                         <img src="img.png" alt="" style="height: 100px;">
+                         <img src="img.png" alt="" style="height: 100px;width: 150px;">
+                         <h2 style="margin-top:-20px;margin-right: 100px;color: #eae5e3;">16</h2>
                         
                     </div>
                     <p style="color:#5eb9dc;margin-top:20px;">Vasant Panchami, <br><br>Shastriji Maharaj Jayanti</p>
                 </div>
-                <div class="card">
+                <div class="datecontent">
                     <h1>17</h1>
                     <p>Sud 6 <br> <br> Vruddhitithi</p>
                 </div>
-                <div class="card">
+                <div class="datecontent">
                     <h1>18</h1>
                     <p>Sud 6</p>
                 </div>
-                <div class="card">
+                <div class="datecontent">
                     <h1>19</h1>
                     <p>Sud 7</p>
                 </div>
-                <div class="card">
+                <div class="datecontent">
                     <h1  style="color:#e41d2f;" >20</h1>
                     <p>Sud 8</p>
                 </div>
-                <div class="card">
+                <div class="datecontent">
                     <h1  style="color:#e41d2f;" >21</h1>
                     <p style="color:#5eb9dc;">Sud 9 <br><br> Shri Hari Navmi</p>
                 </div>
-                <div class="card">
+                <div class="datecontent">
                     <h1>22</h1>
                     <p>Sud 10</p>
                 </div>
-                <div class="card">
-                    <div style="background-color: #f1e9bc;height: 100px;margin-top: -80px;">
-                     <h1 style="padding: 40px;">23</h1>
+                <div class="datecontent">
+                    <div style="background-color: #f1e9bc;height: 100px;margin-top:-40px;">
+                     <h1 style="padding: 40px;"  class="bgfont">23</h1>
                     
                     </div>
                      <p style="color:#5eb9dc;margin-top:20px;">Jaya Ekadashi (Fast)</p>
                  </div>
-                <div class="card">
+                <div class="datecontent">
                     <h1>24</h1>
                     <p>Sud 12</p>
                 </div>
-                <div class="card">
+                <div class="datecontent">
                     <h1>25</h1>
                     <p style="color:#5eb9dc;">Sud 13 <br><br> Vishwakarma Jayanti</p>
                 </div>
-                <div class="card">
-                    <h1>26</h1>
+                <div class="datecontent">
+                    <h1 >26</h1>
                     <p>Sud 14</p>
                 </div>
-                <div class="card">
-                    <div style="background-color:#aae0f9;height: 100px;margin-top: -80px;">
-                     <h1 style="padding: 40px;">27</h1>
+                <div class="datecontent">
+                    <div style="background-color:#aae0f9;height: 100px;margin-top:-40px;">
+                     <h1 style="padding: 40px;color:#e41d2f;"  class="bgfont">27</h1>
                     
                     </div>
                      <p style="color:#5eb9dc;margin-top:20px;">Akshar Purnima, <br><br> Maghi Purnima</p>
                  </div>
-                 <div class="card">
-                    <h1  style="color:#e41d2f;" >28</h1>
+                 <div class="datecontent">
+                    <h1  style="color:#e41d2f;">28</h1>
                     <p >Maha Vad 1</p>
                 </div>
 
-                <div class="card" style="border-bottom: none;"></div>
-                <div class="card"style="border-bottom: none;"></div>
-                <div class="card" style="border-bottom: none;"></div>
-                <div class="card"style="border-bottom: none;"></div>
-                <div class="card" style="border-bottom: none;">
+                <div class="datecontent" style="border-bottom: none;"></div>
+                <div class="datecontent"style="border-bottom: none;"></div>
+                <div class="datecontent" style="border-bottom: none;"></div>
+                <div class="datecontent"style="border-bottom: none;"></div>
+                <div class="datecontent" style="border-bottom: none;margin-left: -5px;">
                     
                     <ul>
                         <li style="color:#e41d2f;" >Holidays</li>
@@ -259,8 +314,8 @@
                     </ul>  
   
                 </div>
-                <div class="card" style="border-bottom: none;"></div>
-                <div class="card" style="border-bottom: none;"></div>
+                <div class="datecontent" style="border-bottom: none;"></div>
+                <div class="datecontent" style="border-bottom: none;"></div>
                 
     
                 
@@ -268,6 +323,7 @@
                
                 
             </div>
+             
             
             <div class="box" id="footer">
                
@@ -287,6 +343,7 @@
                  
                   
             </div>
+            
         </div>
         
         
